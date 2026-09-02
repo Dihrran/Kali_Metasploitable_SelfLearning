@@ -1,1 +1,10 @@
+1. nmap <ip> -sV -p 3306
+- check status and version for mysql
+
+2. nmap --script=mysql-brute <ip>
+
+3. nmap --script=mysql-empty-password <ip>
+
+4. mysql -u root -h <ip> -p --skip-ssl
+- --skip-ssl : Disables SSL/TLS encryption for the connection.
 
