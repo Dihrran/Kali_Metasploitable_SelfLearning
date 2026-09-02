@@ -1,1 +1,23 @@
+1. nmap <ip> -sV -p 5900
+- check status and version
+
+2. use msfconsole (metaploit console interface)
+
+3. grep scanner search vnc
+
+4. use 152
+
+5. show option
+- check which field is not filled
+- usually RHOSTS
+
+6. set hosts <ip>
+
+7. show options
+
+8. exploit
+- use default set of password to test log in
+- log in successful: :password, means the system is vulnerable (it uses weak password)
+
+9. complete
 
